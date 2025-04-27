@@ -1,4 +1,5 @@
 import './App.css';
+import CardSwipe from './components/CardSwipe.tsx';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           >
             Learn React
           </a>
+          <CardSwipe />
         </p>
       </header>
     </div>
